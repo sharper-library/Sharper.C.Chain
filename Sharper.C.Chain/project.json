@@ -1,0 +1,20 @@
+{ "version": "0.1.0-*"
+, "description": "Chain: a trampolined sequence"
+, "authors": [ "Jeremy Hughes" ]
+, "projectUrl": "https://github.com/sharper-library/Sharper.C.Chain"
+, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Chain/master/LICENSE.txt"
+
+, "dependencies":
+  { "Sharper.C.Trampoline": "0.1.0-*"
+  }
+
+, "frameworks":
+  { "dotnet":
+    { "dependencies":
+      { "System.Runtime": "4.0.20"
+      }
+    }
+  , "dnx451": { }
+  , "net451": { }
+  }
+}

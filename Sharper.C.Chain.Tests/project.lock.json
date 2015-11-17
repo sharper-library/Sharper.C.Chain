@@ -1,0 +1,323 @@
+{
+  "locked": false,
+  "version": 1,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "FsCheck/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.5"
+        },
+        "compile": {
+          "lib/net45/FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FsCheck.dll": {}
+        }
+      },
+      "FSharp.Core/3.1.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Core.dll": {}
+        }
+      },
+      "Fuchu/1.0.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.1"
+        },
+        "compile": {
+          "lib/Fuchu.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.dll": {}
+        }
+      },
+      "Fuchu.FsCheck/1.0.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FsCheck": "2.1.0",
+          "FSharp.Core": "3.1.2.5",
+          "Fuchu": "1.0.1.0"
+        },
+        "compile": {
+          "lib/Fuchu.FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.FsCheck.dll": {}
+        }
+      },
+      "Sharper.C.Chain/0.1.0": {
+        "type": "project",
+        "dependencies": {
+          "Sharper.C.Trampoline": "0.1.0"
+        }
+      },
+      "Sharper.C.Chain.Testing/0.1.0": {
+        "type": "project",
+        "dependencies": {
+          "Sharper.C.Chain": null,
+          "Sharper.C.Enumerable": "0.1.0",
+          "Sharper.C.Testing": "0.1.0"
+        }
+      },
+      "Sharper.C.Enumerable/0.1.0-build-00008": {
+        "type": "package",
+        "dependencies": {
+          "Sharper.C.Function": "0.1.0-build-00002",
+          "Sharper.C.Trampoline": "0.1.0-build-00008"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Enumerable.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Enumerable.dll": {}
+        }
+      },
+      "Sharper.C.Function/0.1.0-build-00002": {
+        "type": "package",
+        "dependencies": {
+          "Sharper.C.Unit": "0.1.0-build-00004"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Function.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Function.dll": {}
+        }
+      },
+      "Sharper.C.Testing/0.1.0-build-00002": {
+        "type": "package",
+        "dependencies": {
+          "Fuchu.FsCheck": "1.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        }
+      },
+      "Sharper.C.Trampoline/0.1.0-build-00009": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Trampoline.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Trampoline.dll": {}
+        }
+      },
+      "Sharper.C.Unit/0.1.0-build-00004": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Unit.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Unit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sharper.C.Chain/0.1.0": {
+      "type": "project",
+      "path": "../Sharper.C.Chain/project.json"
+    },
+    "Sharper.C.Chain.Testing/0.1.0": {
+      "type": "project",
+      "path": "../Sharper.C.Chain.Testing/project.json"
+    },
+    "FsCheck/2.1.0": {
+      "type": "package",
+      "sha512": "yg47Psh/ZyD9F+N8HjJ9Q6UU/A9Oz1xu9frfdspyEtD660Pk+v96uch9wwMZfvrhtgSTatgInI8G9SkqNEZofA==",
+      "files": [
+        "FsCheck.2.1.0.nupkg",
+        "FsCheck.2.1.0.nupkg.sha512",
+        "FsCheck.nuspec",
+        "lib/net45/FsCheck.dll",
+        "lib/net45/FsCheck.pdb",
+        "lib/net45/FsCheck.XML",
+        "lib/portable-net45+netcore45/FsCheck.dll",
+        "lib/portable-net45+netcore45/FsCheck.pdb",
+        "lib/portable-net45+netcore45/FsCheck.XML",
+        "lib/portable-net45+netcore45+wp8/FsCheck.dll",
+        "lib/portable-net45+netcore45+wp8/FsCheck.pdb",
+        "lib/portable-net45+netcore45+wp8/FsCheck.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.XML"
+      ]
+    },
+    "FSharp.Core/3.1.2.5": {
+      "type": "package",
+      "sha512": "1V9wPWZuLgewzk01tc5wRyGrmdOI+Lc9/MsAeMXFffjjGA1Ydv5KU2mnWLz+O6TcHeACwK0M3yHbb/we233vvg==",
+      "files": [
+        "FSharp.Core.3.1.2.5.nupkg",
+        "FSharp.Core.3.1.2.5.nupkg.sha512",
+        "FSharp.Core.nuspec",
+        "lib/net20/FSharp.Core.dll",
+        "lib/net20/FSharp.Core.optdata",
+        "lib/net20/FSharp.Core.sigdata",
+        "lib/net20/FSharp.Core.xml",
+        "lib/net40/FSharp.Core.dll",
+        "lib/net40/FSharp.Core.optdata",
+        "lib/net40/FSharp.Core.sigdata",
+        "lib/net40/FSharp.Core.xml",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.dll",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.optdata",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.sigdata",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.xml",
+        "lib/portable-net45+netcore45/FSharp.Core.dll",
+        "lib/portable-net45+netcore45/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.xml",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.dll",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.optdata",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.sigdata",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.xml"
+      ]
+    },
+    "Fuchu/1.0.1.0": {
+      "type": "package",
+      "sha512": "pqd44uYepdFUI23/GaBY5jC0YXEB1m8CquyE5xTLFVbmbph9R9Dxo1RpqqS4iyOe30CAcRQSqa5yNoVQyCBmNg==",
+      "files": [
+        "Fuchu.1.0.1.nupkg",
+        "Fuchu.1.0.1.nupkg.sha512",
+        "Fuchu.nuspec",
+        "lib/Fuchu.dll",
+        "lib/Fuchu.pdb",
+        "lib/Fuchu.XML"
+      ]
+    },
+    "Fuchu.FsCheck/1.0.1.0": {
+      "type": "package",
+      "sha512": "AqygEFPionZHsuqec/s4c44FSC4AFNRtr92ZYKn+FuuBXvmVV/blj/tnF2ZYOObGieuUcd2ermqw6vXRd3Ec0w==",
+      "files": [
+        "Fuchu.FsCheck.1.0.1.nupkg",
+        "Fuchu.FsCheck.1.0.1.nupkg.sha512",
+        "Fuchu.FsCheck.nuspec",
+        "lib/Fuchu.FsCheck.dll",
+        "lib/Fuchu.FsCheck.pdb",
+        "lib/Fuchu.FsCheck.XML"
+      ]
+    },
+    "Sharper.C.Enumerable/0.1.0-build-00008": {
+      "type": "package",
+      "sha512": "6hw/dvrKf7CyHWZkF+izpNJIoAvmB6DDrXDs+nCz9fzdc5VB+5xNag1tM5yV9lq/u0q+PrwVOGOe9Cg6sTiY8g==",
+      "files": [
+        "lib/dnx451/Sharper.C.Enumerable.dll",
+        "lib/dnx451/Sharper.C.Enumerable.xml",
+        "lib/dotnet/Sharper.C.Enumerable.dll",
+        "lib/dotnet/Sharper.C.Enumerable.xml",
+        "lib/net451/Sharper.C.Enumerable.dll",
+        "lib/net451/Sharper.C.Enumerable.xml",
+        "Sharper.C.Enumerable.0.1.0-build-00008.nupkg",
+        "Sharper.C.Enumerable.0.1.0-build-00008.nupkg.sha512",
+        "Sharper.C.Enumerable.nuspec"
+      ]
+    },
+    "Sharper.C.Function/0.1.0-build-00002": {
+      "type": "package",
+      "sha512": "lqZzqYkvNCbH5QLpo18HO1I20AJ7+0jGdwyY2E97n2WnP+LUzQCfM+DEWTgpd3yXBnW11bmyJYcUcpjLBxXoyw==",
+      "files": [
+        "lib/dnx451/Sharper.C.Function.dll",
+        "lib/dnx451/Sharper.C.Function.xml",
+        "lib/dotnet/Sharper.C.Function.dll",
+        "lib/dotnet/Sharper.C.Function.xml",
+        "lib/net451/Sharper.C.Function.dll",
+        "lib/net451/Sharper.C.Function.xml",
+        "Sharper.C.Function.0.1.0-build-00002.nupkg",
+        "Sharper.C.Function.0.1.0-build-00002.nupkg.sha512",
+        "Sharper.C.Function.nuspec"
+      ]
+    },
+    "Sharper.C.Testing/0.1.0-build-00002": {
+      "type": "package",
+      "sha512": "T/JxgJqj7tZSyhnJZstBI8k/FLG8BB7pRLWp0PPdXAoAINr7cEJl2XOpwO6u1DTFkx1m/phJXnl7bulerInw1Q==",
+      "files": [
+        "lib/dnx451/Sharper.C.Testing.dll",
+        "lib/dnx451/Sharper.C.Testing.xml",
+        "Sharper.C.Testing.0.1.0-build-00002.nupkg",
+        "Sharper.C.Testing.0.1.0-build-00002.nupkg.sha512",
+        "Sharper.C.Testing.nuspec"
+      ]
+    },
+    "Sharper.C.Trampoline/0.1.0-build-00009": {
+      "type": "package",
+      "sha512": "Vn7f2nTtZDB0KIitL71t9fGHwkL0g6kTQHt3f3vSVO2vo8VuldZoc39N5jetM48RUGSIofSujCM0yCtCWZ7olQ==",
+      "files": [
+        "lib/dnx451/Sharper.C.Trampoline.dll",
+        "lib/dnx451/Sharper.C.Trampoline.xml",
+        "lib/dotnet/Sharper.C.Trampoline.dll",
+        "lib/dotnet/Sharper.C.Trampoline.xml",
+        "lib/net451/Sharper.C.Trampoline.dll",
+        "lib/net451/Sharper.C.Trampoline.xml",
+        "Sharper.C.Trampoline.0.1.0-build-00009.nupkg",
+        "Sharper.C.Trampoline.0.1.0-build-00009.nupkg.sha512",
+        "Sharper.C.Trampoline.nuspec"
+      ]
+    },
+    "Sharper.C.Unit/0.1.0-build-00004": {
+      "type": "package",
+      "sha512": "0GVcJVe6Ml/HiDs6H9EW4qJ2CHmxkWKZpM84ZtP/4f7sCJQLCxQJzal+moQcszIUaHxjWC7TTcsdzDDcjPaPVw==",
+      "files": [
+        "lib/dnx451/Sharper.C.Unit.dll",
+        "lib/dnx451/Sharper.C.Unit.xml",
+        "lib/dotnet/Sharper.C.Unit.dll",
+        "lib/dotnet/Sharper.C.Unit.xml",
+        "lib/net451/Sharper.C.Unit.dll",
+        "lib/net451/Sharper.C.Unit.xml",
+        "Sharper.C.Unit.0.1.0-build-00004.nupkg",
+        "Sharper.C.Unit.0.1.0-build-00004.nupkg.sha512",
+        "Sharper.C.Unit.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Sharper.C.Chain.Testing "
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}

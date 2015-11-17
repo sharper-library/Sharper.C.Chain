@@ -1,0 +1,18 @@
+{ "version": "0.1.0-*"
+, "description": ""
+, "authors": [ "Jeremy Hughes" ]
+, "projectUrl": "https://github.com/"
+, "licenseUrl": "https://raw.githubusercontent.com//master/LICENSE.txt"
+
+, "commands":
+  { "test": "run"
+  }
+
+, "dependencies":
+  { "Sharper.C.Chain.Testing": ""
+  }
+
+, "frameworks":
+  { "dnx451": { }
+  }
+}
